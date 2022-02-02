@@ -1,0 +1,101 @@
+// .main {
+//   background-color: lightblue;
+
+//   .main-heading {
+//     font-size: 2em;
+//   }
+
+//   .main-paragraph {
+//     font-size: 1.4em;
+//   }
+// }
+
+// .main,
+// footer {
+//   h1,
+//   p {
+//     letter-spacing: 1px;
+//   }
+// }
+
+// &
+// parent selector
+// .main {
+//   .container & {
+//     background-color: rgb(116, 135, 141);
+//   }
+//   .main-heading {
+//     font-size: 2em;
+//   }
+
+//   &:hover {
+//     background-color: salmon;
+//   }
+// }
+
+// .main {
+//   #{&}-heading {
+//     font-size: 2em;
+//   }
+//   #{&}-paragraph {
+//     font-size: 1.4em;
+//   }
+// }
+
+// .footer {
+//   #{&}-heading {
+//     font-size: 2em;
+//   }
+//   #{&}-paragraph {
+//     font-size: 1.4em;
+//   }
+// }
+
+// CSS Variables
+// :root {
+//   //root agar semua HTML punya akses ke CSS ini
+//   --primary-color: white;
+//   --secondary-color: salmon;
+//   --text-color: lightsalmon;
+// }
+
+// body {
+//   background-color: var(--primary-color);
+// }
+
+// h1 {
+//   color: var(--text-color);
+// }
+
+// p {
+//   color: var(--text-color);
+// }
+
+// SASS Variables
+// $secondary-color: salmon;
+// $text-color: lightsalmon;
+// $primary-color: blue;
+
+// body {
+//   $primary-color: white !global;
+//   background-color: $primary-color;
+// }
+
+// h1 {
+//   color: $primary-color;
+// }
+
+// MAP
+// $alert-danger: red;
+// $alert-success: green;
+// $alert-warning: yellow;
+
+$alert: (
+  "danger": red,
+  "success": green,
+  "warning": yellow,
+);
+
+h1 {
+  color: map-get($alert, "warning");
+}
