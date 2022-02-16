@@ -1,0 +1,67 @@
+// Base
+$warna-dasar: #74e04c;
+h1 {
+  color: $warna-dasar;
+  font-family: Arial, Helvetica, sans-serif;
+  font: 3em;
+  text-align: center;
+}
+
+// Built-in Modules: Color
+/* adjust-color($color, 
+    $red: null, $green: null, $blue: null, $hue: null, $saturation: null, $lightness: null, $whiteness: null, $blackness: null, $alpha: null)
+*/
+
+// h1 {
+//   color: adjust-color($color: $warna-dasar, $green: 100);
+// }
+
+// adjust-hue($color, $degree);
+// h1 {
+//   color: adjust-hue($warna-dasar, 30deg);
+// }
+
+// complement($color)
+// h1 {
+//   color: complement($warna-dasar);
+// }
+
+// darken($color, $amount)
+// h1 {
+//   color: darken($warna-dasar, 20%);
+// }
+
+// lighten($color, $amount)
+// h1 {
+//   color: lighten($warna-dasar, 20%);
+// }
+
+// saturate($color, $amount)
+// h1 {
+//     color: saturate($warna-dasar, 10%);
+// }
+
+// desaturate($color, $amount)
+// h1 {
+//   color: desaturate($warna-dasar, 100%);
+// }
+
+// grayscale($color)
+// h1 {
+//     color: grayscale($warna-dasar);
+// }
+
+// mix($color1, $color2, $weight: 50%)
+// h1 {
+//   color: mix($warna-dasar, #000000, $weight: 20%);
+// }
+
+// fade-in($color, $amount)
+// h1 {
+//   color: fade-in(rgba(188, 252, 86, 0.2), 0.5);
+// }
+
+// fade-out($color, $amount)
+h1 {
+  color: fade-out($warna-dasar, 0.4);
+}

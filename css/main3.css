@@ -1,0 +1,14 @@
+h1 {
+  color: #74e04c;
+  font-family: Arial, Helvetica, sans-serif;
+  font: 3em;
+  text-align: center;
+}
+
+/* adjust-color($color, 
+    $red: null, $green: null, $blue: null, $hue: null, $saturation: null, $lightness: null, $whiteness: null, $blackness: null, $alpha: null)
+*/
+h1 {
+  color: rgba(116, 224, 76, 0.6);
+}
+/*# sourceMappingURL=main3.css.map */
